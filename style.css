@@ -1,0 +1,109 @@
+body {
+  background-color: #030303;
+}
+
+p {
+  color: aliceblue;
+}
+
+p {
+}
+
+#first_s {
+  max-width: 100%;
+  height: 60vh;
+  background-image: url(splash1.jpg);
+  background-size: cover;
+  background-position: 10%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+#first_s h1 {
+  text-align: center;
+  font-size: 50px;
+  color: antiquewhite;
+  text-decoration: underline;
+}
+
+#first_s img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30%;
+  width: 35%;
+  position: relative;
+}
+
+#second_s .section_wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 5%;
+}
+
+#second_s img {
+  display: flex;
+  flex-flow: wrap;
+  width: 70%;
+  height: 60%;
+  padding-left: 50px;
+}
+
+#second_s p {
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+
+  aspect-ratio: 16 / 9;
+  padding-top: 30px;
+}
+
+video {
+  max-width: 100%;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+#third_s {
+  display: grid;
+  background-color: rgb(192, 151, 89);
+  text-align: center;
+  display: grid;
+}
+
+#third_s p {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: "Merriweather", serif;
+  color: rgb(255, 255, 255);
+}
+
+#forth_s {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 5%;
+}
+
+#forth_s img {
+  height: 100%;
+}
+
+#inspiration {
+  text-align: center;
+}
+
+#fifth_s {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  padding-top: 50px;
+  text-align: center;
+}
